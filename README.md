@@ -7,6 +7,9 @@ Chat History Bot: This bot maintains a log of all previous interactions, allowin
 **Setup**
 
 Clone the repository.(git clone repo link)
+
 Install the required dependencies.(pip install -r requirements.txt)
-Set up your environment variables, including the GOOGLE_API_KEY.  
+
+Set up your environment variables, including the GOOGLE_API_KEY. 
+
 Run the Streamlit app.(streamlit run app.py)
