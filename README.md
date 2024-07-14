@@ -5,6 +5,7 @@ Image Analysis Bot: Upload an image, and this bot will analyze and describe the 
 Chat History Bot: This bot maintains a log of all previous interactions, allowing users to review their chat history for reference and continuity.
 
 **Setup**
+
 Clone the repository.(git clone repo link)
 Install the required dependencies.(pip install -r requirements.txt)
 Set up your environment variables, including the GOOGLE_API_KEY.  
