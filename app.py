@@ -5,14 +5,12 @@ from dotenv import load_dotenv
 import google.generativeai as genai
 from IPython.display import Markdown
 
-# Load environment variables
+
 load_dotenv()
 
-# Configure the Generative AI API with the API key
 api_key = os.getenv("GOOGLE_API_KEY")
 genai.configure(api_key=api_key)
 
-# Convert text to Markdown format
 def to_markdown(text):
     text = text.replace('•', '  *')
     return Markdown(textwrap.indent(text, '> ', predicate=lambda _: True))
